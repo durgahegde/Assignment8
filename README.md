@@ -1,2 +1,2 @@
 # Assignment8
- Jacascript:DOM
+ Web page building using Document Object Model

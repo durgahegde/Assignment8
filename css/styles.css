@@ -1,0 +1,46 @@
+body{
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size  : 1em;
+    width: 700px;
+}
+
+input[type="text"] {
+    width: 15em;
+    margin-bottom: 1em;
+    border-color: #0077b3;
+}
+
+span {
+    color: red;
+}
+
+#add-button {
+    background-color: #0077b3;
+    color: white;
+    margin: auto;
+    
+}
+
+#employee-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#employee-table td, #employee-table th {
+  border: 2px solid white;
+  padding: 10px;
+} 
+
+#employee-table th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    background-color: #0077b3;
+    color: white;
+  }
+
+#employee-table tr:nth-child(even){background-color: #e6f7ff;}
+
+#employee-table tr:nth-child(odd){background-color:#B7E3FE;}
+
+#employee-table tr:hover {background-color: #009de6 ;}
